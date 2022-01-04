@@ -11,7 +11,7 @@ export function Inicio(){
     const Hemisphere = new THREE.HemisphereLight(
         0xFFFFBB, // cor de cima
         0x080820, // cor de baixo
-        2 // intencidade
+        20 // intencidade
     )
     Hemisphere.position.y = 3.18
     scene.add(Hemisphere)
@@ -49,6 +49,7 @@ export function Inicio(){
         scene,
         camera,
         renderer,
-        x3
+        x3,
+        Hemisphere
     }
 }
