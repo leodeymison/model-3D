@@ -50,6 +50,6 @@ loader.load('../models/car/scene.gltf', function(gltf){
 // renderizar
 const objects = {
     plane,
-    cube,
+    // cube,
 }
 Render(start,objects)
